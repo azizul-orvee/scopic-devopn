@@ -1,0 +1,19 @@
+# Ignore node_modules in Backend and Client
+Backend/node_modules/
+Client/node_modules/
+
+# Ignore build files in Client
+Client/build/
+Client/dist/
+Client/out/
+
+# Ignore .terraform directory in Terraform
+Terraform/.terraform/
+
+# Ignore .tfstate and .tfstate.backup files in Terraform
+Terraform/*.tfstate
+Terraform/*.tfstate.backup
+
+# Ignore .env files in all folders
+*.env
+*.zip
